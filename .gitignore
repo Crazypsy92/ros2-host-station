@@ -1,0 +1,13 @@
+build/
+install/
+log/
+COLCON_IGNORE
+*.pyc
+__pycache__/
+.pytest_cache/
+*.egg-info/
+*.swp
+*~
+.vscode/
+.idea/
+.DS_Store

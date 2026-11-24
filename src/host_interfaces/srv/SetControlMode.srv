@@ -1,0 +1,10 @@
+# 模式切换服务定义
+uint8 MODE_POSITION = 1
+uint8 MODE_VELOCITY = 2
+uint8 MODE_EFFORT   = 3
+uint8 MODE_DISABLE  = 4
+
+uint8 mode
+---
+bool success
+string message

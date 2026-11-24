@@ -1,0 +1,6 @@
+# 急停服务定义
+bool stop
+string reason
+---
+bool success
+string message
