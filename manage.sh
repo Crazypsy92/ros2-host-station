@@ -63,6 +63,10 @@ case "$cmd" in
         echo "[INFO] 启动 MuJoCo 桥接与上位机节点测试..."
         ros2 launch mujoco_bridge test_bridge.launch.py
         ;;
+    test-windows-tcp)
+        echo "[INFO] 启动 Windows ↔ WSL2 TCP 跨系统通信测试..."
+        ros2 launch mujoco_bridge windows_tcp_bridge.launch.py
+        ;;
     test-mcu-loopback)
         echo "[INFO] 启动 MCU 串口/UDP 回环通信测试..."
         ros2 launch mcu_bridge test_loopback.launch.py

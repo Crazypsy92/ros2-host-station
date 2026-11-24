@@ -1,0 +1,20 @@
+{
+  "total_duration_sec": 62.01,
+  "motor_state_msgs": 2985,
+  "motor_state_hz": 48.13,
+  "joint_states_msgs": 2984,
+  "joint_states_hz": 48.13,
+  "interval_avg_ms": 20.78,
+  "interval_p95_ms": 22.49,
+  "total_joint_variation": [
+    29.84,
+    29.89,
+    30.11,
+    30.0,
+    29.84,
+    29.89
+  ],
+  "status_samples": 3100,
+  "final_system_state": "RUNNING",
+  "final_error_count": 0
+}

@@ -23,6 +23,7 @@ setup(
     entry_points={
         'console_scripts': [
             'mujoco_bridge_node = mujoco_bridge.mujoco_node:main',
+            'windows_tcp_bridge_node = mujoco_bridge.windows_tcp_bridge_node:main',
         ],
     },
 )
